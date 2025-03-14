@@ -1,0 +1,12 @@
+---
+title: ESS330 Project Proposals
+authors:
+  - name: Megan Hoover
+    affiliation: Colorado State University
+    roles: writing
+    corresponding: true
+bibliography: references.bib
+---
+
+## Section
+This is a simple placeholder for the manuscript's main document [@knuth84].
