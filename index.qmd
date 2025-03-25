@@ -31,6 +31,34 @@ Expected Outcomes:
  I expect to find that coral reefs will be more impacted than the other sea environments, and that sea grass meadows will have more ecosystem surfaces affected than the other ones. This is important to know because the environment that is impacted the most could have better protections that reduce ship anchoring. Being able to identify which relationships are stronger will help to make decisions on which environment to focus more regulations on. 
  
  
+ 
  Megan’s proposal 2: Looking at antifouling paint contamination of boats in water bodies. 
 
 In an attempt to deter biofoul (biological accumulation on submerged surfaces), boats often use a type of paint that can cause harm to organisms in water bodies. The harm is mainly caused by leisure boats in shallow coastal waters, because there is great organism diversity in the low water exchanging area (@bighiu2017biofouling). Contaminants from the paint include different metals including copper, which has more recently been found to negatively impact benthic organisms. There has not been a lot of research done on the effects of these harmful paints to benthic dwelling creatures on a global scale and finding how they impact them is important to understanding the aquatic ecosystem's health (@muller2021environmental). 
+
+Objective:
+The objective of studying the relationship between biofoul paints and water bodies is to explore the impacts on freshwater vs. Saltwater ecosystems. My hypothesis is that due to saltwater being more corrosive, shallow coastal ecosystems are likely to be more affected by biofoul paints than freshwater shallow ecosystems. This analysis can be carried out using data from various water bodies to create visualizations and show linear relationships if there are any. 
+
+Proposed Methods:
+To carry out this study my team members and I will look at data from various freshwater and saltwater bodies, fit a model to see different relationships, and visually show the relationship with a graph. To look at different relationships between the variety/quantity of benthic organisms present and the type of contaminants that are also present we will be using data from NWIS and ENVIROFACTS. We will start locally first to see if there is a pattern between different lakes in the Colorado area that have boating activity and then we will move to a coastal state and look at data between different boating areas in that state. We will then compile the data and do a multivariate analysis using an ANOVA test. 
+
+Expected Outcomes:
+I expect to find that antibiofoul paint used on boats affects both freshwater and saltwater benthic communities negatively, but with a bigger impact in saltwater areas. This is important to know because benthic organisms are an indicator of water health and if these organisms aren’t present then it could lead to food chain and other ecological issues. Being able to identify where the problem occurs and why could help to make solutions at a community level and policy level with outreach. 
+
+
+
+
+
+Lillys Proposal 2: Food waste and loss in the United States resulting in increased Climate Changed. 
+
+
+Justification:
+This project is significant because agriculture is a huge part of our economy and allowing for everyone to survive. However, there is a lot of waste around the country. Therefore, if we look at how much we produce and inevitably then we can also look at how food waste has been impacting the air quality. The articles back this up because they allow us to see where in the United States has the most food loss and waste. While also showing how water consumption has been impacted by food waste. Also backs us up on how greenhouse gases are emitted because of food waste and loss if it is not treated properly. Therefore, these articles prove that this topic is important to look into because there are environmental impacts associated with food waste and loss.
+
+Research Objective/question/hypothesis:
+We aim to achieve how food waste in the United States has been impacting greenhouse gas emission and water consumption leading to climate change. We aim to learn which sector of the agriculture industry has the most food waste, such as production, transportation, etc. A hypothesis that we have is that most waste comes from the production line, coming off of the farms.  
+
+ 
+
+Proposed Methods:
+We plan to carry out this study by looking at the scholarly articles and books like food industry wastes, Environmental Science, and Technology to see how food waste and loss has been impacting the environment. We will look at where in the process that the highest amount of waste and lost food is coming from as well as what region of the United States has the most loss and waste. This will be a large spatial scale because it is the whole United States, and a temporal scale of 5 years 2015-2020.  
