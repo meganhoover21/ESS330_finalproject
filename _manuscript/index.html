@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ESS330 Project Proposals</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<meta name="citation_title" content="ESS330 Project Proposals">
+<meta name="citation_author" content="Megan Hoover">
+<meta name="citation_author" content="Lilly Zapalac">
+<meta name="citation_language" content="en">
+<meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
+<meta name="citation_reference" content="citation_title=Major regression of posidonia oceanica meadows in relation with recreational boat anchoring: A case study from sant’amanza bay;,citation_abstract=The anchoring of large recreational craft constitutes one of the main threats in shallow marine habitats. In the Mediterranean, this activity has seen constant development during the last decades, causing major physical disturbances in Posidonia oceanica meadows and associated ecosystem services. In this context, the main aims of the present study are to estimate the impact of this anchoring on P. oceanica meadows surface areas and carbon fixation and sequestration capacities, in a particularly highly-frequented area (Sant’Amanza bay, Corsica Island). Accurate benthic marine habitats mapping was performed yearly (2019–2021) using a drone coupled with ground-truthing data. The evaluation of carbon fixation and sequestration by the plant was measured at 12 stations within the bay (−5&nbsp;m to −30&nbsp;m). The maps of the marine habitats reveal an extensive regression of P. oceanica meadows (7.5&nbsp;ha) between 2019 and 2020. This destruction represents a 9;,citation_author=Christine Pergent-Martini;,citation_author=Briac Monnier;,citation_author=Léa Lehmann;,citation_author=Emeline Barralon;,citation_author=Gérard Pergent;,citation_publication_date=2022;,citation_cover_date=2022;,citation_year=2022;,citation_fulltext_html_url=https://www.sciencedirect.com/science/article/pii/S138511012200096X;,citation_doi=https://doi.org/10.1016/j.seares.2022.102258;,citation_issn=1385-1101;,citation_volume=188;,citation_journal_title=Journal of Sea Research;">
+<meta name="citation_reference" content="citation_title=Boat anchoring contributes substantially to coral reef degradation in the british virgin islands;,citation_author=Rebecca L Flynn;,citation_author=Graham E Forrester;,citation_publication_date=2019;,citation_cover_date=2019;,citation_year=2019;,citation_volume=7;,citation_journal_title=PeerJ;,citation_publisher=PeerJ Inc.;">
+<meta name="citation_reference" content="citation_title=Biofouling of leisure boats as a source of metal pollution;,citation_author=Maria Alexandra Bighiu;,citation_author=Ann-Kristin Eriksson-Wiklund;,citation_author=Britta Eklund;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;,citation_volume=24;,citation_journal_title=Environmental Science and Pollution Research;,citation_publisher=Springer;">
+<meta name="citation_reference" content="citation_title=Environmental concentrations of antifouling paint particles are toxic to sediment-dwelling invertebrates;,citation_author=Christina Muller-Karanassos;,citation_author=William Arundel;,citation_author=Penelope K Lindeque;,citation_author=Thomas Vance;,citation_author=Andrew Turner;,citation_author=Matthew Cole;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_volume=268;,citation_journal_title=Environmental Pollution;,citation_publisher=Elsevier;">
+<meta name="citation_reference" content="citation_title=Characterization of water quality pollution in mixed land use watersheds;,citation_author=Madeline Ludwig;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_dissertation_institution=Colorado State University;">
+<meta name="citation_reference" content="citation_title=208 REGION 2–NONPOINT SOURCE WATERSHED PLAN;,citation_author=Cindie Kirby;,citation_author=Natalie Acosta;,citation_author=Alan Leak;,citation_publication_date=2024;,citation_cover_date=2024;,citation_year=2024;">
+<meta name="citation_reference" content="citation_title=Quantification of food waste disposal in the united states: A meta-analysis;,citation_author=Krista L Thyberg;,citation_author=David J Tonjes;,citation_author=Jessica Gurevitch;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_issue=24;,citation_volume=49;,citation_journal_title=Environmental science &amp;amp;amp; technology;,citation_publisher=ACS Publications;">
+<meta name="citation_reference" content="citation_title=Accounting for the environmental impact of food waste on water resources and climate change;,citation_author=Yu-Ting Tang;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_inbook_title=Food industry wastes;">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">ESS330 Project Proposals</h1>
+          </div>
+
+    
+    <div class="quarto-title-meta-container">
+      <div class="quarto-title-meta-column-start">
+            <div class="quarto-title-meta-author">
+          <div class="quarto-title-meta-heading">Authors</div>
+          <div class="quarto-title-meta-heading">Affiliation</div>
+          
+                <div class="quarto-title-meta-contents">
+            <p class="author">Megan Hoover </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Colorado State University
+                      </p>
+                  </div>
+                      <div class="quarto-title-meta-contents">
+            <p class="author">Lilly Zapalac </p>
+          </div>
+                <div class="quarto-title-meta-contents">
+                    <p class="affiliation">
+                        Colorado State University
+                      </p>
+                  </div>
+                    </div>
+        
+        <div class="quarto-title-meta">
+
+                      
+          
+                
+              </div>
+      </div>
+      <div class="quarto-title-meta-column-end quarto-other-formats-target">
+      <div class="quarto-alternate-formats"><div class="quarto-title-meta-heading">Other Formats</div><div class="quarto-title-meta-contents"><p><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></p></div><div class="quarto-title-meta-contents"><p><a href="index-meca.zip" data-meca-link="true"><i class="bi bi-archive"></i>MECA Bundle</a></p></div></div></div>
+    </div>
+
+
+
+    <div class="quarto-other-links-text-target">
+    </div>  </div>
+</header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">Section</a></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+  
+
+
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">Section</h2>
+<p>This is a simple placeholder for the manuscript’s main document <span class="citation" data-cites="knuth84">(<a href="#ref-knuth84" role="doc-biblioref">Knuth 1984</a>)</span>.</p>
+<p>Megan’s proposal 1: The relationship between ship anchoring and the ocean/lake floor environment</p>
+<p>Ship anchoring can have devastating impacts on the marine environment. The heavy piece that holds the vessel in place can tear up the bottom of the water body and cause more harm in some areas than others. The health of Seagrass meadows has been found to greatly decrease in areas with high anchoring activity. This also decreases their ability to sequester carbon and provide ecosystem services (<span class="citation" data-cites="PERGENTMARTINI2022102258">Pergent-Martini et al. (<a href="#ref-PERGENTMARTINI2022102258" role="doc-biblioref">2022</a>)</span>). Anchors have also contributed to coral reef degradation, which are already under threat from climate change and overfishing (<span class="citation" data-cites="flynn2019boat">Flynn and Forrester (<a href="#ref-flynn2019boat" role="doc-biblioref">2019</a>)</span>). Understanding what environments are more sensitive to anchors can help to raise awareness of the issues and help to avoid causing unnecessary damage.</p>
+<p>Objective:<br>
+The objective of studying the impacts of anchoring on marine environments is to be able to identify which ones are more sensitive to the physical impact and what ecosystem services are disrupted. My hypothesis is that coral reefs are more sensitive to anchoring than other areas of the seabed. This analysis can be carried out by looking at data from anchor impact on coral reef systems, sea grass beds, and possibly mangroves. By collecting the data, various models can be run to show whether anchoring has a stronger relationship among some areas over others. A visualization of the different locations can also be shown to show the trends.</p>
+<p>Proposed Methods: To carry out this study, my team members and I will collect data on several seabed locations including coral reefs, seagrass meadows, and mangroves. We will collect data on the density of vegetation/growth after the physical impact of anchors from the PeerJ article dataset as well as the Direct Science dataset on seagrass. We will also find data on ecosystem services provided (like carbon sequestration) via NOAA. After collecting data, a multivariate analysis will be done to determine which variables have a stronger relationship and have a model fitted to them to visually show the relationship. This will help to show which environment is more sensitive and how many ecosystem services are affected by the type of seabed environment. This study will cover global seas due to the topic being so specific. It will also be done on a timescale of 10-20 years, depending on how much data we can find.</p>
+<p>Expected Outcomes: I expect to find that coral reefs will be more impacted than the other sea environments, and that sea grass meadows will have more ecosystem surfaces affected than the other ones. This is important to know because the environment that is impacted the most could have better protections that reduce ship anchoring. Being able to identify which relationships are stronger will help to make decisions on which environment to focus more regulations on.</p>
+<p>Megan’s proposal 2: Looking at antifouling paint contamination of boats in water bodies.</p>
+<p>In an attempt to deter biofoul (biological accumulation on submerged surfaces), boats often use a type of paint that can cause harm to organisms in water bodies. The harm is mainly caused by leisure boats in shallow coastal waters, because there is great organism diversity in the low water exchanging area (<span class="citation" data-cites="bighiu2017biofouling">Bighiu, Eriksson-Wiklund, and Eklund (<a href="#ref-bighiu2017biofouling" role="doc-biblioref">2017</a>)</span>). Contaminants from the paint include different metals including copper, which has more recently been found to negatively impact benthic organisms. There has not been a lot of research done on the effects of these harmful paints to benthic dwelling creatures on a global scale and finding how they impact them is important to understanding the aquatic ecosystem’s health (<span class="citation" data-cites="muller2021environmental">Muller-Karanassos et al. (<a href="#ref-muller2021environmental" role="doc-biblioref">2021</a>)</span>).</p>
+<p>Objective: The objective of studying the relationship between biofoul paints and water bodies is to explore the impacts on freshwater vs.&nbsp;Saltwater ecosystems. My hypothesis is that due to saltwater being more corrosive, shallow coastal ecosystems are likely to be more affected by biofoul paints than freshwater shallow ecosystems. This analysis can be carried out using data from various water bodies to create visualizations and show linear relationships if there are any.</p>
+<p>Proposed Methods: To carry out this study my team members and I will look at data from various freshwater and saltwater bodies, fit a model to see different relationships, and visually show the relationship with a graph. To look at different relationships between the variety/quantity of benthic organisms present and the type of contaminants that are also present we will be using data from NWIS and ENVIROFACTS. We will start locally first to see if there is a pattern between different lakes in the Colorado area that have boating activity and then we will move to a coastal state and look at data between different boating areas in that state. We will then compile the data and do a multivariate analysis using an ANOVA test.</p>
+<p>Expected Outcomes: I expect to find that antibiofoul paint used on boats affects both freshwater and saltwater benthic communities negatively, but with a bigger impact in saltwater areas. This is important to know because benthic organisms are an indicator of water health and if these organisms aren’t present then it could lead to food chain and other ecological issues. Being able to identify where the problem occurs and why could help to make solutions at a community level and policy level with outreach.</p>
+<p>Lilly’s proposal 1: What chemicals are impacting the Poudre River the most and how is it impacting the ecosystem? Justification: This project is significant because it will allow us to understand which chemicals are negatively impacted the ecosystems around us. Also knowing where these chemicals are coming from would allow politicians and companies to be aware and help reduce the runoff. These sources back up the reasoning for significance because they show that there is a lot of pollution in the rivers. In the first article it states how E.coli concentrations increased while going downstream most likely because of the increased human influence downstream.(<span class="citation" data-cites="ludwig2020characterization">Ludwig (<a href="#ref-ludwig2020characterization" role="doc-biblioref">2020</a>)</span>) While the second articles states that nitrogen, phosphorus, and sediment all pollute the rivers around this area.However, the Cache la Poudre River Watershed was the least polluted.However, there is also a percentage breakdown of each pollutant and where they come from. (<span class="citation" data-cites="kirby2024208">Kirby, Acosta, and Leak (<a href="#ref-kirby2024208" role="doc-biblioref">2024</a>)</span>) Therefore, these articles help us understand what pollution there is in the Poudre River and where it is coming from.</p>
+<p>Research Objective/question/hypothesis: The specific objective we hope to achieve is to bring these issues up so policies can be put into place. Also we hope to be able to learn more about how waterways with human interactions are impacted by chemical runoff. A testable hypothesis would be, it is hypothesized that most runoff and chemicals will come from agricultural fields since fields using fertilizers and pesticides tend to runoff into waterways.</p>
+<p>Proposed Methods: First, we will look at data sets from scholarly articles that have done research in this area of water pollution in the Poudre River. Then we will have to analyze the data sets and compare them to what the main human influence on the land is around that area. We will use the data of what pollution is in the river and where in the river is it most polluted and what the reason behind the pollution is. Since we are using multiple variables we are going to be using an ANOVA test for determining the relationship between the variables. This will be at a small spatial scale since it is only in the Poudre River area and a spatial scale of 4 years 2020-2024.</p>
+<p>Expected Outcomes: I am expecting to find that there is a lot of pollution from runoff in fields like nitrogen and phosphorus causing algae blooms. This is important because algae blooms negatively impact species because they lower the dissolved oxygen content resulting in death.</p>
+<p>Lillys Proposal 2: Food waste and loss in the United States resulting in increased Climate Changed.</p>
+<p>Justification: This project is significant because agriculture is a huge part of our economy and allowing for everyone to survive. However, there is a lot of waste around the country. Therefore, if we look at how much we produce and inevitably then we can also look at how food waste has been impacting the environment. The articles back this up because they allow us to see where in the United States has the most food loss and waste. (<span class="citation" data-cites="thyberg2015quantification">Thyberg, Tonjes, and Gurevitch (<a href="#ref-thyberg2015quantification" role="doc-biblioref">2015</a>)</span>) While also showing how water consumption has been impacted by food waste.They also back us up on how greenhouse gases are emitted because of food waste and loss if it is not treated properly. (<span class="citation" data-cites="tang2020accounting">Tang (<a href="#ref-tang2020accounting" role="doc-biblioref">2020</a>)</span>) Therefore, these articles prove that this topic is important to look into because there are environmental impacts associated with food waste and loss.</p>
+<p>Research Objective/question/hypothesis: We aim to achieve how food waste in the United States has been impacting greenhouse gas emission and water consumption leading to climate change. We aim to learn which sector of the agriculture industry has the most food waste, such as production, transportation, etc. A hypothesis that we have is that most waste comes from the production line, coming off of the farms.</p>
+<p>Proposed Methods: We plan to carry out this study by looking at the scholarly articles and books like food industry wastes and Environmental Science and Technology to see how food waste and loss has been impacting the environment. We will look at the amount of wasted and lost food and where in the process the food is wasted and lost most as well as what region of the United States the most loss and waste are coming for. Since we are using multiple variables including; food waste amount, where the food waste is coming from in the United States, and in which process of food production we will be using an ANOVA test to determine the relationships between these variables. This will be a large spatial scale because it is the whole United States, and a temporal scale of 5 years 2015-2020.</p>
+<p>Expected Outcomes: I expect to find that there will be most of the food is wasted before it even has a chance to reach the consumers, mostly at the production of food. I expect this outcome because of agriculture being subsidized and there</p>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bighiu2017biofouling" class="csl-entry" role="listitem">
+Bighiu, Maria Alexandra, Ann-Kristin Eriksson-Wiklund, and Britta Eklund. 2017. <span>“Biofouling of Leisure Boats as a Source of Metal Pollution.”</span> <em>Environmental Science and Pollution Research</em> 24: 997–1006.
+</div>
+<div id="ref-flynn2019boat" class="csl-entry" role="listitem">
+Flynn, Rebecca L, and Graham E Forrester. 2019. <span>“Boat Anchoring Contributes Substantially to Coral Reef Degradation in the British Virgin Islands.”</span> <em>PeerJ</em> 7: e7010.
+</div>
+<div id="ref-kirby2024208" class="csl-entry" role="listitem">
+Kirby, Cindie, Natalie Acosta, and Alan Leak. 2024. <span>“208 REGION 2–NONPOINT SOURCE WATERSHED PLAN.”</span>
+</div>
+<div id="ref-knuth84" class="csl-entry" role="listitem">
+Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+<div id="ref-ludwig2020characterization" class="csl-entry" role="listitem">
+Ludwig, Madeline. 2020. <span>“Characterization of Water Quality Pollution in Mixed Land Use Watersheds.”</span> Master’s thesis, Colorado State University.
+</div>
+<div id="ref-muller2021environmental" class="csl-entry" role="listitem">
+Muller-Karanassos, Christina, William Arundel, Penelope K Lindeque, Thomas Vance, Andrew Turner, and Matthew Cole. 2021. <span>“Environmental Concentrations of Antifouling Paint Particles Are Toxic to Sediment-Dwelling Invertebrates.”</span> <em>Environmental Pollution</em> 268: 115754.
+</div>
+<div id="ref-PERGENTMARTINI2022102258" class="csl-entry" role="listitem">
+Pergent-Martini, Christine, Briac Monnier, Léa Lehmann, Emeline Barralon, and Gérard Pergent. 2022. <span>“Major Regression of Posidonia Oceanica Meadows in Relation with Recreational Boat Anchoring: A Case Study from Sant’amanza Bay.”</span> <em>Journal of Sea Research</em> 188: 102258. https://doi.org/<a href="https://doi.org/10.1016/j.seares.2022.102258">https://doi.org/10.1016/j.seares.2022.102258</a>.
+</div>
+<div id="ref-tang2020accounting" class="csl-entry" role="listitem">
+Tang, Yu-Ting. 2020. <span>“Accounting for the Environmental Impact of Food Waste on Water Resources and Climate Change.”</span> In <em>Food Industry Wastes</em>, 305–29. Elsevier.
+</div>
+<div id="ref-thyberg2015quantification" class="csl-entry" role="listitem">
+Thyberg, Krista L, David J Tonjes, and Jessica Gurevitch. 2015. <span>“Quantification of Food Waste Disposal in the United States: A Meta-Analysis.”</span> <em>Environmental Science &amp; Technology</em> 49 (24): 13946–53.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
