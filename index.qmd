@@ -5,8 +5,32 @@ authors:
     affiliation: Colorado State University
     roles: writing
     corresponding: true
+    authors:
+  - name: Lilly Zapalac
+    affiliation: Colorado State University
+    roles: writing
 bibliography: references.bib
 ---
 
 ## Section
 This is a simple placeholder for the manuscript's main document [@knuth84].
+
+Megan’s proposal 1: The relationship between ship anchoring and the ocean/lake floor environment 
+
+Ship anchoring can have devastating impacts on the marine environment. The heavy piece that holds the vessel in place can tear up the bottom of the water body and cause more harm in some areas than others. The health of Seagrass meadows has been found to greatly decrease in areas with high anchoring activity. This also decreases their ability to sequester carbon and provide ecosystem services (@PERGENTMARTINI2022102258). Anchors have also contributed to coral reef degradation, which are already under threat from climate change and overfishing (@flynn2019boat). Understanding what environments are more sensitive to anchors can help to raise awareness of the issues and help to avoid causing unnecessary damage. 
+
+Objective:  
+The objective of studying the impacts of anchoring on marine environments is to be able to identify which ones are more sensitive to the physical impact and what ecosystem services are disrupted. My hypothesis is that coral reefs are more sensitive to anchoring than other areas of the seabed. This analysis can be carried out by looking at data from anchor impact on coral reef systems, sea grass beds, and possibly mangroves. By collecting the data, various models can be run to show whether anchoring has a stronger relationship among some areas over others. A visualization of the different locations can also be shown to show the trends. 
+
+ 
+
+Proposed Methods: 
+To carry out this study, my team members and I will collect data on several seabed locations including coral reefs, seagrass meadows, and mangroves. We will collect data on the density of vegetation/growth after the physical impact of anchors from the PeerJ article dataset as well as the Direct Science dataset on seagrass.  We will also find data on ecosystem services provided (like carbon sequestration) via NOAA. After collecting data, a multivariate analysis will be done to determine which variables have a stronger relationship and have a model fitted to them to visually show the relationship. This will help to show which environment is more sensitive and how many ecosystem services are affected by the type of seabed environment. This study will cover global seas due to the topic being so specific. It will also be done on a timescale of 10-20 years, depending on how much data we can find. 
+
+Expected Outcomes: 
+ I expect to find that coral reefs will be more impacted than the other sea environments, and that sea grass meadows will have more ecosystem surfaces affected than the other ones. This is important to know because the environment that is impacted the most could have better protections that reduce ship anchoring. Being able to identify which relationships are stronger will help to make decisions on which environment to focus more regulations on. 
+ 
+ 
+ Megan’s proposal 2: Looking at antifouling paint contamination of boats in water bodies. 
+
+In an attempt to deter biofoul (biological accumulation on submerged surfaces), boats often use a type of paint that can cause harm to organisms in water bodies. The harm is mainly caused by leisure boats in shallow coastal waters, because there is great organism diversity in the low water exchanging area (@bighiu2017biofouling). Contaminants from the paint include different metals including copper, which has more recently been found to negatively impact benthic organisms. There has not been a lot of research done on the effects of these harmful paints to benthic dwelling creatures on a global scale and finding how they impact them is important to understanding the aquatic ecosystem's health (@muller2021environmental). 
