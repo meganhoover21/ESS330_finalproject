@@ -3,10 +3,13 @@ project:
 
 manuscript:
   article: index.qmd
+  
+citeproc:
+  csl: APA 7th Edition.csl
 
 format:
   html:
-    comments:
+   comments:
       hypothesis: true
   docx: default
   jats: default
