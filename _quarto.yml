@@ -4,8 +4,6 @@ project:
 manuscript:
   article: index.qmd
   
-citeproc:
-  csl: AP.csl
 
 format:
   html:

@@ -10,7 +10,7 @@ authors:
     affiliation: Colorado State University
     roles: writing
 bibliography: references.bib
-csl: nature.csl
+csl: apa.csl
 ---
 
 ## Section
