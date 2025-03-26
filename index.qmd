@@ -9,6 +9,7 @@ authors:
   - name: Lilly Zapalac
     affiliation: Colorado State University
     roles: writing
+format: html
 bibliography: references.bib
 csl: apa.csl
 ---
