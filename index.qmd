@@ -10,6 +10,7 @@ authors:
     affiliation: Colorado State University
     roles: writing
 bibliography: references.bib
+csl: nature.csl
 ---
 
 ## Section
@@ -46,21 +47,32 @@ Expected Outcomes:
 I expect to find that antibiofoul paint used on boats affects both freshwater and saltwater benthic communities negatively, but with a bigger impact in saltwater areas. This is important to know because benthic organisms are an indicator of water health and if these organisms aren’t present then it could lead to food chain and other ecological issues. Being able to identify where the problem occurs and why could help to make solutions at a community level and policy level with outreach. 
 
 
+Lilly’s Proposal 1: What chemicals are impacting the Poudre River the most and how is it impacting the ecosystem?
+Justification: This project is significant because it will allow us to understand which chemicals are negatively impacted the ecosystems around us. Also knowing where these chemicals are coming from would allow politicians and companies to be aware and help reduce the runoff. These sources back up the reasoning for significance because they show that there is a lot of pollution in the rivers. In the first article it states how E.coli concentrations increased while going downstream most likely because of the increased human influence downstream.(@ludwig2020characterization) While the second articles states that nitrogen, phosphorus, and sediment all pollute the rivers around this area.However, the Cache la Poudre River Watershed was the least polluted.However, there is also a percentage breakdown of each pollutant and where they come from. (@kirby2024208) Therefore, these articles help us understand what pollution there is in the Poudre River and where it is coming from.
 
 
 
-Lillys Proposal 2: Food waste and loss in the United States resulting in increased Climate Changed. 
+Research Objective/question/hypothesis: The specific objective we hope to achieve is to bring these issues up so policies can be put into place. Also we hope to be able to learn more about how waterways with human interactions are impacted by chemical runoff. A testable hypothesis would be, it is hypothesized that most runoff and chemicals will come from agricultural fields since fields using fertilizers and pesticides tend to runoff into waterways.
+
+Proposed Methods: First, we will look at data sets from scholarly articles that have done research in this area of water pollution in the Poudre River. Then we will have to analyze the data sets and compare them to what the main human influence on the land is around that area. We will use the data of what pollution is in the river and where in the river is it most polluted and what the reason behind the pollution is. Since we are using multiple variables we are going to be using an ANOVA test for determining the relationship between the variables. This will be at a small spatial scale since it is only in the Poudre River area and a spatial scale of 4 years 2020-2024. 
 
 
-Justification:
-This project is significant because agriculture is a huge part of our economy and allowing for everyone to survive. However, there is a lot of waste around the country. Therefore, if we look at how much we produce and inevitably then we can also look at how food waste has been impacting the air quality. The articles back this up because they allow us to see where in the United States has the most food loss and waste. While also showing how water consumption has been impacted by food waste. Also backs us up on how greenhouse gases are emitted because of food waste and loss if it is not treated properly. Therefore, these articles prove that this topic is important to look into because there are environmental impacts associated with food waste and loss.
-
-Research Objective/question/hypothesis:
-We aim to achieve how food waste in the United States has been impacting greenhouse gas emission and water consumption leading to climate change. We aim to learn which sector of the agriculture industry has the most food waste, such as production, transportation, etc. A hypothesis that we have is that most waste comes from the production line, coming off of the farms.  
-
- 
-
-Proposed Methods:
-We plan to carry out this study by looking at the scholarly articles and books like food industry wastes, Environmental Science, and Technology to see how food waste and loss has been impacting the environment. We will look at where in the process that the highest amount of waste and lost food is coming from as well as what region of the United States has the most loss and waste. This will be a large spatial scale because it is the whole United States, and a temporal scale of 5 years 2015-2020.  
+Expected Outcomes: I am expecting to find that there is a lot of pollution from runoff in fields like nitrogen and phosphorus causing algae blooms. This is important because algae blooms negatively impact species because they lower the dissolved oxygen content resulting in death.
 
 
+<<<<<<< HEAD
+=======
+
+Lillys Proposal 2: Food waste and loss in the United States resulting in increased Climate Changed.
+
+Justification: This project is significant because agriculture is a huge part of our economy and allowing for everyone to survive. However, there is a lot of waste around the country. Therefore, if we look at how much we produce and inevitably then we can also look at how food waste has been impacting the environment. The articles back this up because they allow us to see where in the United States has the most food loss and waste. (@thyberg2015quantification) While also showing how water consumption has been impacted by food waste.They also back us up on how greenhouse gases are emitted because of food waste and loss if it is not treated properly. (@tang2020accounting) Therefore, these articles prove that this topic is important to look into because there are environmental impacts associated with food waste and loss.
+
+
+
+Research Objective/question/hypothesis: We aim to achieve how food waste in the United States has been impacting greenhouse gas emission and water consumption leading to climate change. We aim to learn which sector of the agriculture industry has the most food waste, such as production, transportation, etc. A hypothesis that we have is that most waste comes from the production line, coming off of the farms. 
+
+Proposed Methods: We plan to carry out this study by looking at the scholarly articles and books like food industry wastes and Environmental Science and Technology to see how food waste and loss has been impacting the environment. We will look at the amount of wasted and lost food and where in the process the food is wasted and lost most as well as what region of the United States the most loss and waste are coming for. Since we are using multiple variables including; food waste amount, where the food waste is coming from in the United States, and in which process of food production  we will be using an ANOVA test to determine the relationships between these variables. This will be a large spatial scale because it is the whole United States, and a temporal scale of 5 years 2015-2020. 
+
+Expected Outcomes: I expect to find that there will be most of the food is wasted before it even has a chance to reach the consumers, mostly at the production of food. I expect this outcome because of agriculture being subsidized and there 
+
+>>>>>>> f8e5c17cde3e551a891d081e4522f0683d832fc1

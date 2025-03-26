@@ -5,7 +5,7 @@ manuscript:
   article: index.qmd
   
 citeproc:
-  csl: APA 7th Edition.csl
+  csl: AP.csl
 
 format:
   html:
